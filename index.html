@@ -12,7 +12,7 @@ h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8rem}
 </head>
 <body>
 <h1>Datenschutzerklärung für die App „KronenPaperless“</h1>
-<p>Stand: 01.11.2026</p>
+<p>Stand: 02.11.2026 (ergänzt um die Erkennung des Heim-WLANs)</p>
 <h2>1. Worum es geht</h2>
 <p>KronenPaperless ist ein privater Android-Client für den eigenen Paperless-ngx-Server (Dokumentenverwaltung). Die App ist eine veränderte Fassung der Open-Source-App „Paperless Mobile“ (GPL-3.0) und wird nur innerhalb einer Familie genutzt.</p>
 <h2>2. Verantwortlicher und Kontakt</h2>
@@ -31,6 +31,7 @@ h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8rem}
 <li><b>Kamera</b> (optional): zum Scannen von Dokumenten. Die Aufnahmen gehen nur an Ihren Paperless-Server.</li>
 <li><b>Benachrichtigungen</b> (optional): für Hinweise zu Downloads und Uploads.</li>
 <li><b>Biometrie</b> (optional): zum Entsperren der App mit Fingerabdruck oder Gesicht. Die biometrischen Daten verbleiben im Betriebssystem, die App erhält sie nicht.</li>
+<li><b>Standort (optional)</b>: Android gibt den Namen des verbundenen WLANs nur mit dieser Berechtigung heraus. Die App liest damit ausschließlich den WLAN-Namen, um zu erkennen, ob Sie in einem von Ihnen eingetragenen Heim-WLAN sind und kein Tunnel nötig ist. Ihr Standort wird weder gespeichert noch übertragen noch ausgewertet. Ohne diese Berechtigung funktioniert die App weiterhin, die Erkennung des Heim-WLANs ist dann nicht möglich.</li>
 <li><b>VPN (eingebauter WireGuard-Tunnel)</b>: Ist der Server nicht direkt erreichbar, baut die App mit Ihrer Erlaubnis einen WireGuard-Tunnel zu Ihrem eigenen Router auf. Durch diesen Tunnel läuft ausschließlich der Datenverkehr dieser App. Der Datenverkehr anderer Apps wird nicht umgeleitet oder ausgewertet, und es werden keine Daten an den Entwickler gesendet.</li>
 </ul>
 <h2>6. Google Play</h2>
